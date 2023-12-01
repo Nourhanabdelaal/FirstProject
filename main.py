@@ -141,11 +141,25 @@ numbers = [1, 2, 3, 4, 5]
 numbers.clear()
 print(numbers)
 
-hiiiii
+
+b = 123
+c = 456
+n  = b + c
+print(n)
+print(f'n={n}')
+print(f'n=(n)')
+print(f'n=[n]')
+
+# so f= formatting and {} those brackets are shown the value of their inside charcters
+
+df = 0.0000000123456
+print(df)
+
+# ------------------------------------------
+a = 1234\n56
+print(a)
 
 
-hello
 
-editing on git 
 
 
