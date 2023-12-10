@@ -1,4 +1,4 @@
-N = int(input('Enter the value of prime numbers: '))
+N = int(input('Enter the number of prime numbers: '))
 num = 2
 prime = []
 
