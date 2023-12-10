@@ -267,16 +267,9 @@ def helloo(**numbers):
 print(helloo(name = "Nourhan", age = "25"))
 
 
-lambda
-classes
-inheritance
-modules
-
-
-
-
-
-
-
+# lambda
+# classes
+# inheritance
+# modules
 
 
