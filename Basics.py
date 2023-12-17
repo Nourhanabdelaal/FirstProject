@@ -273,3 +273,28 @@ print(helloo(name = "Nourhan", age = "25"))
 # modules
 
 
+print('-------------------zip--------------and--------------------dict------------------')
+#zip is used to combine lists , string, tuples that contain keys and values - the value of zip could be printed as list or tuple or dict
+# Example lists
+list1 = [1, 2, 3]
+list2 = ['a', 'b', 'c']
+
+# Use zip() to combine the lists into tuples
+zipped_result = zip(list1, list2)
+
+#Convert the result to a list for easier viewing
+#zipped_result = dict or tuple(zip(list1, list2))
+zipped_result = list(zip(list1, list2))
+
+# Print the result
+print(zipped_result)
+
+#another zip example
+lang_name = ['Python', 'Java', 'c++']
+lang_vers = ['3.12', '17', '14']
+
+lang_name_vers = list(zip(lang_name, lang_vers))
+print(lang_name_vers)
+
+lang_name_verss =  list(zip(*lang_name, lang_vers))
+print(lang_name_verss)
